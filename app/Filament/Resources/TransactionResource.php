@@ -65,6 +65,7 @@ class TransactionResource extends Resource
                 TextColumn::make('room.name'),
                 TextColumn::make('name'),
                 TextColumn::make('payment_method'),
+                TextColumn::make('payment_status'),
                 TextColumn::make('total_amount'),
                 TextColumn::make('transaction_date'),
             ])
